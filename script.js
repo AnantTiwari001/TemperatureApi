@@ -16,8 +16,8 @@ let container= document.getElementById('container');
 input.addEventListener('focusin', function (){
     console.log('the form  is in focus');
     document.addEventListener('keydown', function(e){
-        console.log('It is inside the inpput and key is pressed');
-        console.log(e);
+        // console.log('It is inside the inpput and key is pressed');
+        // console.log(e);
         if (e.key==='Enter')
             console.log('Enter key is pressed');
             // getLatLong();
